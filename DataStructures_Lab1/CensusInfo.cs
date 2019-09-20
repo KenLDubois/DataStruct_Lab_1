@@ -9,6 +9,8 @@ namespace DataStructures_Lab1
     class CensusInfo
     {
         private int provID;
+        private int regionID;
+        private int population;
 
         public int ProvID
         {
@@ -16,21 +18,16 @@ namespace DataStructures_Lab1
             set { provID = value; }
         }
 
-        private int regionID;
-
         public int RegionID
         {
             get { return regionID; }
             set { regionID = value; }
         }
 
-        private int population;
-
         public int Population
         {
             get { return population; }
             set { population = value; }
         }
-
     }
 }
